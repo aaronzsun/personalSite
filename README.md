@@ -1,2 +1,3 @@
 # mysite2
-My new personal website
+Personal website for Aaron Sun.
+aaronzsun.com
