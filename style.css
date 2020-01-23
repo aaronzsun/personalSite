@@ -7,7 +7,7 @@
 #landing {
     height: 100%;
     width: 100%;
-    min-width: 800px;
+    min-width: 1000px;
     overflow: hidden;
     text-align: center;
 }
@@ -180,8 +180,15 @@
 
 @media only screen and (device-width: 1280px),
 only screen and (max-width:1280px) {
-    #landing, #about, #resume, #projects, #contact {
+    #landing, #about, #projects, #contact {
         height: 150%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #resume {
+        height: 180%;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
