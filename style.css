@@ -212,22 +212,22 @@
   }
 
 @media only screen and (max-width: 800px) {
-    #landing, #about, #resume, #projects, #contact {
-        height: 250%;
+    #landing, #about, #resume, #projects {
+        height: 220%;
         padding-top: 200px;
     }
 
-    #timestamp {
+    #timestamp, #topButton {
         display: none;
     }
   }
 
 @media only screen and (max-height: 800px) {
-    #landing, #about, #resume, #projects, #contact {
+    #landing, #about, #resume, #projects {
         height: 300%;
     }
 
-    #timestamp {
+    #timestamp, #topButton {
         display: none;
     }
   }
