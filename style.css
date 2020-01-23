@@ -222,9 +222,9 @@
     }
   }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 600px) {
     #landing, #about, #resume, #projects {
-        height: 300%;
+        height: 250%;
     }
 
     #timestamp, #topButton {
