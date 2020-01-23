@@ -9,9 +9,11 @@
     width: 100%;
     min-width: 1000px;
     text-align: center;
+    overflow: auto;
 }
 
 #about, #resume, #projects, #contact {
+    overflow: auto;
     z-index: -1;
     padding-top: 250px;
     height: 50%;
