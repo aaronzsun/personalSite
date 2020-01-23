@@ -186,7 +186,7 @@
 
 @media only screen and (max-width: 800px) {
     #landing, #about, #resume, #projects, #contact {
-        height: 300%;
+        height: 250%;
         padding-top: 200px;
     }
   }
