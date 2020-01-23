@@ -9,11 +9,9 @@
     width: 100%;
     min-width: 1000px;
     text-align: center;
-    overflow: auto;
 }
 
 #about, #resume, #projects, #contact {
-    overflow: auto;
     z-index: -1;
     padding-top: 250px;
     height: 50%;
@@ -184,6 +182,13 @@
     width: 100%;
     border-bottom: 1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+    #landing, #about, #resume, #projects, #contact {
+        width: 80%;
+        height: 150%;
+    }
+  }
 
 /** Fade In CSS **/
 
