@@ -186,7 +186,14 @@
 @media only screen and (max-width: 600px) {
     #landing, #about, #resume, #projects, #contact {
         width: 80%;
-        height: 150%;
+        height: 100%;
+    }
+  }
+
+@media only screen and (max-height: 800px) {
+    #landing, #about, #resume, #projects, #contact {
+        width: 80%;
+        height: 160%;
     }
   }
 
