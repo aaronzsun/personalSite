@@ -4,6 +4,18 @@
     text-align: center;
 }
 
+#lightbulb {
+    display: inline-block;
+    height: 180px;
+    margin: 0;
+    margin-bottom: 30px;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
 #landing {
     height: 60%;
     width: 100%;
@@ -33,7 +45,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
     font-weight: 900;
-    margin-top: 200px;
+    margin-top: 160px;
     margin-bottom: 0px;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
@@ -47,7 +59,7 @@
     font-size: 25px;
     font-weight: 300;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
     -moz-animation: fadeIn ease 3s;
