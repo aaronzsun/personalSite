@@ -25,6 +25,10 @@
     -ms-animation: fadeIn ease 3s;
 }
 
+#contact {
+    margin-bottom: 40px;
+}
+
 #title {
     font-family: 'Open Sans', sans-serif;
     font-size: 60px;
@@ -84,7 +88,7 @@
 #timestamp {
     font-family: 'Open Sans', sans-serif;
     font-size: 10px;
-    margin-top: 120px;
+    margin-top: 80px;
     text-align: center;
 }
 
